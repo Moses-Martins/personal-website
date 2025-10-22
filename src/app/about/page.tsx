@@ -10,14 +10,14 @@ export default function About() {
             <Title name="About" />
             <div className="mt-[30px] flex justify-around">
                 <p className="ml-[50px] w-[40%]">
-                    Hello, i'm Moses!<br /><br />
+                    Hello, I&rsquo;m Moses!<br /><br />
 
-                    I'm a self-taught software developer based in Lagos,
+                    I&rsquo;m a self-taught software developer based in Lagos,
                     Nigeria. I can develop responsive websites from
                     scratch and raise them into modern user-friendly web
                     experiences.<br /><br />
 
-                    Transforming my creativity and knowledge into a
+                    Transforming my creativity and knowledge into
                     websites has been my passion for years. I have
                     been helping various clients to establish their
                     presence online. I always strive to learn about the

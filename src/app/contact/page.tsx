@@ -9,7 +9,7 @@ export default function Contact() {
             <Title name="Contact" />
             <div className="mt-[60px] flex justify-around items-center">
                 <p className="w-[40%]">
-                    I'm interested in freelance opportunities. However,
+                    I&rsquo;m interested in freelance opportunities. However,
                     if you have other request or question, don't
                     hesitate to contact me
 
