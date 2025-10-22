@@ -5,6 +5,7 @@ export default function ProjectCard() {
             <div className="border border-gray-400">
 
                 <div className="relative overflow-hidden p-6 pb-24">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src="#" alt="Project Image" />
 
                 </div>

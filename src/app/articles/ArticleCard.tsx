@@ -22,6 +22,7 @@ export default function ArticleCard() {
 
                     {/* Image section */}
                     <div className="flex-shrink-0 relative">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                             className="w-full md:w-48 h-40 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
                             src="placeholder-image-dark-calendar.png"

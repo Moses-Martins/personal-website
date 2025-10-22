@@ -14,6 +14,7 @@ export default function MainPage() {
         </div>
 
         <div className="flex flex-col items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img className="w-[75%]" src="ProfileImage.png" alt="Large Image" />
           <span className="mt-[-6%] border p-[1%]"><i className="bi bi-patch-check-fill mr-1" style={{ color: "#63f74fff" }}></i>Currently building cool things.</span>
         </div>

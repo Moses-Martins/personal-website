@@ -10,9 +10,9 @@ export default function About() {
             <Title name="About" />
             <div className="mt-[30px] flex justify-around">
                 <p className="ml-[50px] w-[40%]">
-                    Hello, I&rsquo;m Moses!<br /><br />
+                    Hello, I&apos;m Moses!<br /><br />
 
-                    I&rsquo;m a self-taught software developer based in Lagos,
+                    I&apos;m a self-taught software developer based in Lagos,
                     Nigeria. I can develop responsive websites from
                     scratch and raise them into modern user-friendly web
                     experiences.<br /><br />
@@ -24,7 +24,7 @@ export default function About() {
                     newest technologies and frameworks.
 
                 </p>
-
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className="mr-[30px] w-[230px] h-auto border rounded-xl" src="ProfilePic.jpg" alt="Profile Pic" />
 
             </div>
@@ -32,6 +32,7 @@ export default function About() {
             <Title name="Skills" />
 
             <div className="flex justify-around mb-[100px]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className="w-[400px]" src="five-stars-depth.svg" alt="svg" />
 
                 <div className="w-[40%] grid grid-cols-3 gap-[9px]">

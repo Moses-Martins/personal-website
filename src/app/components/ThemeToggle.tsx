@@ -24,6 +24,7 @@ export default function ThemeToggle() {
   if (isDark === null) return null;
 
   return (
+    /* eslint-disable-next-line @next/next/no-img-element */
     <img
       src={isDark ? "/icon-sun.svg" : "/icon-moon.svg"}
       alt="Toggle theme"
