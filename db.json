@@ -1,0 +1,329 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "quote": "All our dreams can come true, if we have the courage to pursue them.",
+            "author": "Walt Disney"
+        },
+        {
+            "id": 2,
+            "quote": "The secret of getting ahead is getting started.",
+            "author": "Mark Twain"
+        },
+        {
+            "id": 3,
+            "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+            "author": "Chinese proverb"
+        },
+        {
+            "id": 4,
+            "quote": "It’s hard to beat a person who never gives up.",
+            "author": "Babe Ruth"
+        },
+
+        {
+            "id": 5,
+            "quote": "Write it. Shoot it. Publish it. Crochet it. Sauté it. Whatever. MAKE.",
+            "author": "Joss Whedon"
+        },
+      
+        {
+            "id": 6,
+            "quote": "It’s no use going back to yesterday, because I was a different person then.",
+            "author": "Lewis Carroll"
+        },
+    
+        {
+            "id": 7,
+            "quote": "Do what you feel in your heart to be right—for you’ll be criticized anyway.",
+            "author": "Eleanor Roosevelt"
+        },
+        {
+            "id": 8,
+            "quote": "Happiness is not something ready made. It comes from your own actions.",
+            "author": "Dalai Lama XIV"
+        },
+        {
+            "id": 9,
+            "quote": "Imagination is everything. It is the preview of life's coming attractions.",
+            "author": "Albert Einstein"
+        },
+        {
+            "id": 10,
+            "quote": "If we have the attitude that it’s going to be a great day, it usually is.",
+            "author": "Catherine Pulsifier"
+        },
+        {
+            "id": 11,
+            "quote": "Your passion is waiting for your courage to catch up.",
+            "author": "Isabelle Lafleche"
+        },
+    
+        {
+            "id": 12,
+            "quote": "Don’t be afraid to give up the good to go for the great.",
+            "author": "John D. Rockefeller"
+        },
+     
+        {
+            "id": 13,
+            "quote": "Everything comes to him who hustles while he waits.",
+            "author": "Thomas Edison"
+        },
+        {
+            "id": 14,
+            "quote": "Invest in your dreams. Grind now. Shine later.",
+            "author": "Unknown"
+        },
+        {
+            "id": 15,
+            "quote": "Greatness only comes before hustle in the dictionary.",
+            "author": "Ross Simmonds"
+        },
+        {
+            "id": 16,
+            "quote": "Without hustle, talent will only carry you so far.",
+            "author": "Gary Vaynerchuk"
+        },
+        {
+            "id": 17,
+            "quote": "Hustle in silence and let your success make the noise.",
+            "author": "Unknown"
+        },
+        {
+            "id": 18,
+            "quote": "Self-worth comes from one thing—thinking that you are worthy.",
+            "author": "Wayne Dyer"
+        },
+        {
+            "id": 19,
+            "quote": "Great things are done by a series of small things brought together.",
+            "author": "Vincent Van Gogh"
+        },
+        {
+            "id": 20,
+            "quote": "Very often, a change of self is needed more than a change of scene.",
+            "author": "A.C. Benson"
+        },
+        {
+            "id": 21,
+            "quote": "Leaders can let you fail and yet not let you be a failure.",
+            "author": "Stanley McChrystal"
+        },
+        {
+            "id": 22,
+            "quote": "It’s not the load that breaks you down, it’s the way you carry it.",
+            "author": "Lou Holtz"
+        },
+        {
+            "id": 23,
+            "quote": "Keep your eyes on the stars, and your feet on the ground.",
+            "author": "Theodore Roosevelt"
+        },
+       
+        {
+            "id": 24,
+            "quote": "In a gentle way, you can shake the world.",
+            "author": "Mahatma Gandhi"
+        },
+       
+        {
+            "id": 25,
+            "quote": "Work hard in silence, let your success be the noise.",
+            "author": "Frank Ocean"
+        },
+        {
+            "id": 26,
+            "quote": "Hard work beats talent when talent doesn’t work hard.",
+            "author": "Tim Notke"
+        },
+        {
+            "id": 27,
+            "quote": "If everything seems to be under control, you’re not going fast enough.",
+            "author": "Mario Andretti"
+        },
+        {
+            "id": 28,
+            "quote": "The best way to appreciate your job is to imagine yourself without one.",
+            "author": "Oscar Wilde"
+        },
+
+        {
+            "id": 29,
+            "quote": "Never stop doing your best just because someone doesn’t give you credit.",
+            "author": "Kamari, a.k.a. Lyrikal"
+        },
+       
+        {
+            "id": 30,
+            "quote": "The miracle is not that we do this work, but that we are happy to do it.",
+            "author": "Mother Teresa"
+        },
+      
+        {
+            "id": 31,
+            "quote": "If you cannot do great things, do small things in a great way.",
+            "author": "Napoleon Hill"
+        },
+        {
+            "id": 32,
+            "quote": "Never allow a person to tell you no who doesn’t have the power to say yes.",
+            "author": "Eleanor Roosevelt"
+        },
+    
+        {
+            "id": 33,
+            "quote": "Don’t limit your challenges. Challenge your limits.",
+            "author": "Unknown"
+        },
+        {
+            "id": 34,
+            "quote": "In the middle of every difficulty lies opportunity.",
+            "author": "Albert Einstein"
+        },
+        {
+            "id": 35,
+            "quote": "Start where you are. Use what you have. Do what you can.",
+            "author": "Arthur Ashe"
+        },
+        {
+            "id": 36,
+            "quote": "Go the extra mile. It’s never crowded there.",
+            "author": "Dr. Wayne D. Dyer"
+        },
+   
+        {
+            "id": 37,
+            "quote": "We can do anything we want to if we stick to it long enough.",
+            "author": "Helen Keller"
+        },
+        {
+            "id": 38,
+            "quote": "Every champion was once a contender that didn’t give up.",
+            "author": "Gabby Douglas"
+        },
+      
+        {
+            "id": 39,
+            "quote": "Opportunities don’t happen. You create them.",
+            "author": "Chris Grosser"
+        },
+        {
+            "id": 40,
+            "quote": "Success is liking yourself, liking what you do, and liking how you do it.",
+            "author": "Maya Angelou"
+        },
+        {
+            "id": 41,
+            "quote": "If you obey all the rules, you miss all the fun.",
+            "author": "Katharine Hepburn"
+        },     
+        {
+            "id": 42,
+            "quote": "When you reach the end of your rope, tie a knot and hang out.",
+            "author": "Abraham Lincoln"
+        },
+        {
+            "id": 43,
+            "quote": "Never regret anything that made you smile.",
+            "author": "Mark Twain"
+        },
+        {
+            "id": 44,
+            "quote": "If you want to fly, give up everything that weighs you down.",
+            "author": "Buddha"
+        },
+        {
+            "id": 45,
+            "quote": "Doubt kills more dreams than failure ever will.",
+            "author": "Suzy Kassem"
+        },
+        {
+            "id": 46,
+            "quote": "Today is your opportunity to build the tomorrow you want.",
+            "author": "Ken Poirot"
+        },
+        {
+            "id": 47,
+            "quote": "Focus on being productive instead of busy.",
+            "author": "Tim Ferriss"
+        },
+        {
+            "id": 48,
+            "quote": "It’s not all sunshine and rainbows, but a good amount of it actually is.",
+            "author": "Unknown"
+        },
+        {
+            "id": 49,
+            "quote": "When someone says you can’t do it, do it twice and take pictures.",
+            "author": "Unknown"
+        },
+        {
+            "id": 50,
+            "quote": "I didn’t get there by wishing for it, but by working for it.",
+            "author": "Estée Lauder"
+        },
+        {
+            "id": 51,
+            "quote": "She remembered who she was and the game changed.",
+            "author": "Lalah Deliah"
+        },
+        {
+            "id": 52,
+            "quote": "Be happy with what you have while working for what you want.",
+            "author": "Helen Keller"
+        },
+        {
+            "id": 53,
+            "quote": "Sunshine all the time makes a desert.",
+            "author": "Arabic proverb"
+        },
+  
+        {
+            "id": 54,
+            "quote": "You don’t need to see the whole staircase, just take the first step.",
+            "author": "Martin Luther King Jr."
+        },
+        {
+            "id": 55,
+            "quote": "Do the best you can. No one can do more than that.",
+            "author": "John Wooden"
+        },
+        {
+            "id": 56,
+            "quote": "Do what you can, with what you have, where you are.",
+            "author": "Theodore Roosevelt"
+        },
+        {
+            "id": 57,
+            "quote": "It’s never too late to be what you might’ve been.",
+            "author": "George Eliot"
+        },
+      
+        {
+            "id": 58,
+            "quote": "Trust yourself that you can do it and get it.",
+            "author": "Baz Luhrmann"
+        },
+        {
+            "id": 59,
+            "quote": "Don’t let what you can’t do interfere with what you can do.",
+            "author": "Unknown"
+        },
+        {
+            "id": 60,
+            "quote": "You can do anything you set your mind to.",
+            "author": "Benjamin Franklin"
+        },
+        {
+            "id": 61,
+            "quote": "All we can do is the best we can do.",
+            "author": "David Axelrod"
+        },
+        {
+            "id": 62,
+            "quote": "You never know what you can do until you try.",
+            "author": "William Cobbett"
+        }
+    ]
+}
