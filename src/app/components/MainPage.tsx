@@ -5,10 +5,10 @@ export default function MainPage() {
   const route = useRouter();
   
   return (
-     <section className="mt-[10vh] mx-[5%] flex items-center justify-between">
+     <section className="mt-[10vh] mx-[5%] flex items-center justify-between max-sm:mt-[18vh] max-sm:flex-col max-sm:gap-6">
         <div>
-          <h1 className="text-4xl leading-[130%] font-medium">Hello, I am <span className="text-pink-300">Moses</span>,<br /> a full-stack <span className="text-pink-300">software developer.</span></h1>
-          <p className="font-light text-lg mt-[3vh]">I build scalable and efficient web applications where front-end<br /> meets back-end.</p>
+          <h1 className="text-4xl max-sm:text-3xl leading-[130%] font-medium">Hello, I am <span className="text-pink-300">Moses</span>,<br /> a full-stack <span className="text-pink-300">software developer.</span></h1>
+          <p className="font-light text-lg max-sm:text-base mt-[3vh]">I build scalable and efficient web applications where front-end<br /> meets back-end.</p>
 
           <button className="mt-[4vh] p-[1%] border border-pink-300 transition-all duration-300 hover:bg-pink-300" onClick={() => route.push('/contact')}>Contact me !!</button>
         </div>
@@ -16,7 +16,7 @@ export default function MainPage() {
         <div className="flex flex-col items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img className="w-[75%]" src="ProfileImage.png" alt="Large Image" />
-          <span className="mt-[-6%] border p-[1%]"><i className="bi bi-patch-check-fill mr-1" style={{ color: "#63f74fff" }}></i>Currently building cool things.</span>
+          <span className="mt-[-6%] border p-[1%] max-sm:text-[13px]"><i className="bi bi-patch-check-fill mr-1" style={{ color: "#63f74fff" }}></i>Currently building cool things.</span>
         </div>
 
       </section>

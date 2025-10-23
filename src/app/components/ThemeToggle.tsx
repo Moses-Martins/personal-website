@@ -40,7 +40,7 @@ export default function ThemeToggle() {
           localStorage.theme = "light";
         }
       }}
-      className="w-[35px] h-[35px] ml-[40px] p-2 bg-[hsl(0_0%_93%)] dark:bg-gray-700 cursor-pointer rounded-full transition-transform duration-200 hover:scale-105"
+      className="w-[35px] h-[35px] ml-[40px] max-sm:ml-[0] p-2 bg-[hsl(0_0%_93%)] dark:bg-gray-700 cursor-pointer rounded-full transition-transform duration-200 hover:scale-105"
     />
   );
 }
