@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Resume from "../components/Resume";
 import Title from "../components/Title";
 import SkillCard from "./SkillCard";
 
@@ -43,6 +44,7 @@ export default function About() {
                     <SkillCard name={"Frameworks"} items={"React Next.js Django Gin TailwindCSS Bootstrap"} col="col-start-3 max-sm:col-start-1" />
                 </div>
             </div>
+            <Resume />
 
             <Footer />
 

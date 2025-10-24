@@ -1,0 +1,30 @@
+export default function Resume() {
+
+  return (
+    <div className="w-[80%] max-w-3xl mx-auto p-4 bg-white dark:bg-gray-900 rounded-lg shadow-lg mb-[100px]">
+      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
+        My Resume
+      </h2>
+
+      <div className="aspect-[8.5/11] w-full h-[50vh] border rounded-md overflow-hidden">
+        <iframe
+          src="https://drive.google.com/file/d/1PEuwJ45DJ_qyqMjrmbRmZsSyFPMzB4c6/preview"
+          title="Resume PDF"
+          className="w-full h-[50vh] md:h-[90vh]"
+        />
+      </div>
+
+      <div className="mt-4 text-center">
+        <a
+          href="/MosesMartins_Resume.pdf"
+          download
+          className="inline-block px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-pink-500 transition-colors duration-200"
+        >
+          Download Resume
+        </a>
+      </div>
+    </div>
+
+
+  )
+}
