@@ -10,7 +10,7 @@ export default function Quotes() {
   const fetchRandomQuote = async () => {
     try {
       const randomId = Math.floor(Math.random() * 60) + 1 // 1 → 60
-      const res = await fetch(`https://inspiring-sundae-6ce0c1.netlify.app/api/quotes/${randomId}`)
+      const res = await fetch(`https://mosesmartins.com/api/quotes/${randomId}`)
       if (!res.ok) throw new Error(`Failed to fetch quote #${randomId}`)
 
       const data = await res.json()
