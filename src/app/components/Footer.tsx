@@ -7,7 +7,7 @@ export default function Footer() {
         <hr />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="logo.svg" alt="Logo" className="w-[100px] mt-[1%] mx-[auto] h-[auto]" />
-        <div className="mx-[25%] mb-[10%] flex items-start justify-between max-sm:mx-[5%]">
+        <div className="mx-[25%] mb-[1.5%] max-sm:mb-[10%] flex items-start justify-between max-sm:mx-[5%]">
           <div>
             <p className="text-[18px] font-bold max-sm:text-[14px]">Full-Stack Developer</p>
               
