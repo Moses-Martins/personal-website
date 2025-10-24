@@ -10,7 +10,7 @@ export default function MainPage() {
           <h1 className="text-4xl max-sm:text-3xl leading-[130%] font-medium">Hello, I am <span className="text-pink-300">Moses</span>,<br /> a full-stack <span className="text-pink-300">software developer.</span></h1>
           <p className="font-light text-lg max-sm:text-base mt-[3vh]">I build scalable and efficient web applications where front-end<br /> meets back-end.</p>
 
-          <button className="mt-[4vh] p-[1%] border border-pink-300 transition-all duration-300 hover:bg-pink-300" onClick={() => route.push('/contact')}>Contact me !!</button>
+          <button className="mt-[4vh] p-[1%] border border-pink-300 transition-all duration-300 hover:bg-pink-300 max-sm:active:bg-pink-300" onClick={() => route.push('/contact')}>Contact me !!</button>
         </div>
 
         <div className="flex flex-col items-center">
