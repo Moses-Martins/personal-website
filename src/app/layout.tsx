@@ -21,6 +21,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Moses Martins - Portfolio",
   description: "Learn more about Moses Martins, web developer.",
+  icons: {
+    icon: "/ProfilePic.jpg",
+  },
 };
 
 export default function RootLayout({

@@ -15,7 +15,7 @@ export default function MobileNavbar() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
-          className="p-2 text-2xl text-white z-[60]"
+          className="p-2 text-2xl text-white max-sm:active:bg-pink-300 z-[60]"
         >
           {isOpen ? '✖' : '☰'}
         </button>
@@ -28,10 +28,10 @@ export default function MobileNavbar() {
         }`}
       >
         <div className="flex flex-col items-center mt-20 gap-6 text-lg font-medium">
-          <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
-          <Link href="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
-          <Link href="/about" onClick={() => setIsOpen(false)}>About</Link>
+          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
+          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/about" onClick={() => setIsOpen(false)}>About</Link>
           <ThemeToggle />
         </div>
       </div>

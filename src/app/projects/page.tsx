@@ -9,9 +9,9 @@ export default function Projects() {
             <Header />
             <Title name="Projects" />
             <section className="w-[90%] mx-auto mt-[30px] mb-[110px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[3%] max-sm:gap-[50px] max-sm:mb-[70px]">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                <ProjectCard imageSrc="" tools="TypeScript NestJS PostgreSQL" name="SaveFits" details="Save outfits inspiration" />
+                <ProjectCard imageSrc="/Hireloop.png" tools="Golang GorillaMux Postgres S3Bucket" name="HireLoop" details="REST API for a modern Job platform" />
+                <ProjectCard imageSrc="/Focuslog.png" tools="TypeScript Express PostgreSQL" name="FocusLog" details="Web app for tracking study sessions" />
             </section>
 
             <Footer />

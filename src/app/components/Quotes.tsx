@@ -34,24 +34,24 @@ export default function Quotes() {
 
   return (
     <div className="flex items-center justify-center p-8 font-mono mt-10">
-      <table className="text-white">
+      <table className="text-white dark:text-[#31283d]">
         <tbody>
           <tr>
             <td
               colSpan={2}
-              className="border-l border-r border-t border-white p-4 pt-5 text-[17px] leading-relaxed align-top relative"
+              className="border-l border-r border-t border-white dark:border-[#31283d] p-4 pt-5 text-[17px] leading-relaxed align-top relative"
             >
-              <span className="text-5xl text-gray-200 absolute -top-4 left-4 bg-[#31283d] h-[30%]">
+              <span className="text-5xl text-gray-200 absolute -top-4 left-4 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-[30%]">
                 “
               </span>
               {loading ? "Loading quote..." : quote}
             </td>
           </tr>
           <tr>
-            <td className="border-t border-white w-auto"></td>
-            <td className="relative w-[40%] text-center p-3 border-t border-r border-b border-gray-500/70 border-l border-white">
+            <td className="border-t border-white dark:border-[#31283d] w-auto"></td>
+            <td className="relative w-[40%] text-center p-3 border-t border-r border-b border-gray-500/70 dark:border-[#31283d] border-l border-white">
               — {author || "Unknown"}
-              <span className="text-5xl text-gray-200 absolute -top-4 right-2 bg-[#31283d] h-[40%]">
+              <span className="text-5xl text-gray-200 absolute -top-4 right-2 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-[40%]">
                 ”
               </span>
             </td>

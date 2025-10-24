@@ -9,13 +9,13 @@ export default function Articles() {
             <Header />
             <Title name="Articles" />
             <section className=" mt-[30px] mb-[110px]">
-                <ArticleCard />
-                <ArticleCard />
-                <ArticleCard />
-                <ArticleCard />
+                <ArticleCard title="Understanding the bind method in JavaScript and why it matters." imagesrc="/BindLogo.webp" subtitle="A Deep Dive into Function Context and Permanent Binding." date="Sep 23, 2025" readTime="3 min" />
+                <ArticleCard title="Building a Neural Network Framework for Solving PDE" imagesrc="/Hireloop.png" subtitle="Practical Implementation Guide in TensorFlow" date="Aug 28, 2024" readTime="5 min" />
+                
             </section>
             <Footer />
 
         </>
     );
 }
+ 
