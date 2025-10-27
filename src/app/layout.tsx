@@ -40,7 +40,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${firaCode.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${firaCode.className} ${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         {children}
       </body>

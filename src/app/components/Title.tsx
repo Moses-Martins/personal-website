@@ -1,6 +1,6 @@
 export default function Title({ name }: { name: string }) {
     return (
-        <div className="relative flex items-center mt-[60px] p-6 max-sm:mt-[85px] max-sm:p-3">
+        <div className="max-w-500 w-full mx-auto relative flex items-center mt-15 p-6 max-sm:mt-21.5 max-sm:p-3">
             {/* Line */}
             <div className="absolute left-[100px] right-[100px] h-0.5 bg-purple-600 rounded-full"></div>
 

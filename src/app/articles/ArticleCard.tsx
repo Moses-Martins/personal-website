@@ -1,6 +1,6 @@
 export default function ArticleCard({title, imagesrc, subtitle, date, readTime}: {title: string, imagesrc:string, subtitle: string, date: string, readTime: string}) {
     return (
-            <div className="w-[70%] max-sm:w-[90%] mx-auto mb-[40px] p-6 bg-gradient-to-b from-[#8A436B] to-[#633B66] text-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="w-[80%] max-w-300 max-sm:w-[90%] mx-auto mb-[40px] p-6 bg-gradient-to-b from-[#8A436B] to-[#633B66] text-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <div className="flex flex-col md:flex-row items-start md:items-center md:space-x-8 space-y-6 md:space-y-0">
 
                     {/* Text section */}
@@ -21,10 +21,10 @@ export default function ArticleCard({title, imagesrc, subtitle, date, readTime}:
                     </div>
 
                     {/* Image section */}
-                    <div className="flex-shrink-0 relative max-sm:w-[100%]">
+                    <div className="flex-shrink-0 relative max-md:w-[100%] max-sm:w-[100%]">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                            className="block max-sm:w-full w-48 h-40 object-fill rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
+                            className="block max-md:w-full max-sm:w-full w-48 h-40 object-fill rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
                             src={imagesrc}
                             alt="Preview image"
                         />

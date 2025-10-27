@@ -9,9 +9,10 @@ export default function Home() {
       {/* Add Loading...
       Maybe Icon on text */}
       <Header />
-
-      <MainPage />
-      <Quotes />
+      <main className="flex-grow">
+        <MainPage />
+        <Quotes />
+      </main>
       <Footer />
 
     </>

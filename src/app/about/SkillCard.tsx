@@ -19,8 +19,6 @@ export default function SkillCard({ name, items, col }: { name: string, items: s
             </div>
 
 
-
-
         </>
     );
 }

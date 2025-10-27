@@ -7,7 +7,7 @@ export default function Contact() {
         <>
             <Header />
             <Title name="Contact" />
-            <div className="mt-[60px] max-sm:mt-[20px] flex max-sm:flex-col justify-around items-center max-sm:gap-10">
+            <div className="max-w-300 mx-auto mt-15 max-sm:mt-5 flex max-sm:flex-col justify-around items-center max-sm:gap-10">
                 <p className="w-[40%] max-sm:w-[90%]">
                     I&apos;m interested in freelance opportunities. However,
                     if you have other request or question, don&apos;t

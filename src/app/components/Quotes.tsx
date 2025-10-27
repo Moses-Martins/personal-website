@@ -10,7 +10,7 @@ export default function Quotes() {
   const fetchRandomQuote = async () => {
     try {
       const randomId = Math.floor(Math.random() * 60) + 1 // 1 → 60
-      const res = await fetch(`https://mosesmartins.com/api/quotes/${randomId}`)
+      const res = await fetch(`https://www.mosesmartins.com/api/quotes/${randomId}`)
       if (!res.ok) throw new Error(`Failed to fetch quote #${randomId}`)
 
       const data = await res.json()
@@ -39,9 +39,9 @@ export default function Quotes() {
           <tr>
             <td
               colSpan={2}
-              className="border-l border-r border-t border-white dark:border-[#31283d] p-4 pt-5 text-[17px] leading-relaxed align-top relative"
+              className="border-l border-r border-t border-white dark:border-[#31283d] p-4 pt-5 text-lg leading-relaxed align-top relative"
             >
-              <span className="text-5xl text-gray-200 absolute -top-4 left-4 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-[30%]">
+              <span className="text-5xl text-gray-200 absolute -top-4 left-4 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-7">
                 “
               </span>
               {loading ? "Loading quote..." : quote}
@@ -51,7 +51,7 @@ export default function Quotes() {
             <td className="border-t border-white dark:border-[#31283d] w-auto"></td>
             <td className="relative w-[40%] text-center p-3 border-t border-r border-b border-gray-500/70 dark:border-[#31283d] border-l border-white">
               — {author || "Unknown"}
-              <span className="text-5xl text-gray-200 absolute -top-4 right-2 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-[40%]">
+              <span className="text-5xl text-gray-200 absolute -top-4 right-2 bg-[#31283d] dark:bg-[#ffffff] dark:text-[#31283d] h-7">
                 ”
               </span>
             </td>
