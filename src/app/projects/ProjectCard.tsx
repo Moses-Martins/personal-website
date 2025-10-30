@@ -1,5 +1,5 @@
 
-export default function ProjectCard({imageSrc, tools, name, details}: {imageSrc: string, tools: string, name: string, details: string}) {
+export default function ProjectCard({imageSrc, tools, name, details, live, github}: {imageSrc: string, tools: string, name: string, details: string, live: string, github: string}) {
     return (
         <>
             <div className="border border-gray-400">
@@ -26,11 +26,11 @@ export default function ProjectCard({imageSrc, tools, name, details}: {imageSrc:
                     </div>
 
                     <div className="m-2 p-3 flex align-items justify-center gap-4">
-                        <a href="#" className="inline-flex items-center rounded-lg border border-purple-600 px-5 py-2 text-lg max-sm:text-sm font-medium text-purple-400 dark:text-purple-800 hover:bg-purple-900/30 transition-colors duration-200">
+                        <a href={live} className="inline-flex items-center rounded-lg border border-purple-600 px-5 py-2 text-lg max-sm:text-sm font-medium text-purple-400 dark:text-purple-800 hover:bg-purple-900/30 transition-colors duration-200">
                             Live <span className="ml-3 text-xl max-sm:text-sm">↔</span>
                         </a>
-                        <a href="#" className="inline-flex items-center rounded-lg border border-gray-600 px-5 py-2 text-lg max-sm:text-sm font-medium text-gray-300 dark:text-[#31283d] hover:bg-gray-700 dark:hover:bg-gray-700/30 transition-colors duration-200">
-                            Cached <span className="ml-3 text-xl max-sm:text-sm">➢</span>
+                        <a href={github} className="inline-flex items-center rounded-lg border border-gray-600 px-5 py-2 text-lg max-sm:text-sm font-medium text-gray-300 dark:text-[#31283d] hover:bg-gray-700 dark:hover:bg-gray-700/30 transition-colors duration-200">
+                            Github <span className="ml-3 text-xl max-sm:text-sm">➢</span>
                         </a>
                     </div>
                 </div>
