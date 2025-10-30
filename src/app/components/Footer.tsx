@@ -8,7 +8,7 @@ export default function Footer() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src="logo-dark.svg" alt="Logo Dark" className="w-25 mt-0.5 mx-auto hidden dark:block" />
 
-        <div className="mx-60 max-md:mx-7 flex items-start justify-between max-sm:mx-5">
+        <div className="mx-60 max-xl:mx-7 max-md:mx-7 flex items-start justify-between max-sm:mx-5">
           <div>
             <p className="text-lg font-bold max-sm:text-sm">Full-Stack Developer</p>
               
