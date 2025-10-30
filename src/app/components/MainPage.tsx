@@ -5,7 +5,7 @@ export default function MainPage() {
   const route = useRouter();
   
   return (
-     <section className="max-w-304 mt-14 mx-auto max-md:mx-5 flex items-center justify-between max-md:flex-col max-md:mt-25 max-sm:mt-27 max-sm:flex-col max-sm:gap-6">
+     <section className="max-w-304 mt-14 mx-auto max-md:mt-0 max-xl:mt-20 max-md:pl-0 max-xl:pl-5 max-md:mx-5 flex items-center justify-between max-md:flex-col max-md:mt-25 max-sm:mt-27 max-sm:flex-col max-sm:gap-6">
         <div>
           <h1 className="text-4xl max-sm:text-3xl leading-12 font-medium">Hello, I am <span className="text-pink-300">Moses</span>,<br /> a full-stack <span className="text-pink-300">software developer.</span></h1>
           <p className="font-light text-lg max-sm:text-base mt-5">I build scalable and efficient web applications where front-end<br className="max-md:hidden max-sm:hidden" /> meets back-end.</p>
