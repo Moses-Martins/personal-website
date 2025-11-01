@@ -8,15 +8,15 @@ export default function Resume() {
 
       <div className="aspect-[8.5/11] w-full h-80 border rounded-md overflow-hidden">
         <iframe
-          src="https://drive.google.com/file/d/1PEuwJ45DJ_qyqMjrmbRmZsSyFPMzB4c6/preview"
+          src="https://drive.google.com/file/d/1jy2JEWlsNcsWXvDUWWsVvMZbkNozKWl9/preview"
           title="Resume PDF"
-          className="w-full h-79.5 md:h-[90vh]"
+          className="w-full h-79.5"
         />
       </div>
 
       <div className="mt-4 text-center">
         <a
-          href="/MosesMartins_Resume.pdf"
+          href="https://drive.google.com/uc?export=download&id=1jy2JEWlsNcsWXvDUWWsVvMZbkNozKWl9"
           download
           className="inline-block px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-pink-500 transition-colors duration-200"
         >
