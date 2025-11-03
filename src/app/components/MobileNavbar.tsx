@@ -28,10 +28,10 @@ export default function MobileNavbar() {
         }`}
       >
         <div className="flex flex-col items-center mt-20 gap-6 text-lg font-medium">
-          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
-          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
-          <Link className="max-sm:active:bg-pink-300 dark:text-white" href="/about" onClick={() => setIsOpen(false)}>About</Link>
+          <Link className="max-sm:active:bg-pink-300 text-white" href="/" onClick={() => setIsOpen(false)}>Home</Link>
+          <Link className="max-sm:active:bg-pink-300 text-white" href="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+          <Link className="max-sm:active:bg-pink-300 text-white" href="/articles" onClick={() => setIsOpen(false)}>Articles</Link>
+          <Link className="max-sm:active:bg-pink-300 text-white" href="/about" onClick={() => setIsOpen(false)}>About</Link>
           <ThemeToggle />
         </div>
       </div>

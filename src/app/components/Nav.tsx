@@ -12,7 +12,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="flex gap-9 text-white dark:text-black">
+    <nav className="flex gap-9 dark:text-white text-black">
       {navItems.map((item) => (
         <span
           key={item.path}

@@ -3,8 +3,8 @@
 @custom-variant dark (.dark &);
 
 :root {
-  --background: #31283d;
-  --foreground: #ffffff;
+  --foreground: #31283d;
+  --background: #ffffff;
 }
 
 @theme inline {

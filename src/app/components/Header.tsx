@@ -6,12 +6,12 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   return (
     <>
-      <header className="bg-[#31283d] dark:bg-[#ffffff] fixed top-0 left-0 w-full z-50 flex justify-around items-center max-sm:hidden">
+      <header className="dark:bg-[#31283d] bg-[#ffffff] fixed top-0 left-0 w-full z-50 flex justify-around items-center max-sm:hidden">
         <Link href="/">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="logo.svg" alt="Logo" className="w-28 block dark:hidden" />
+          <img src="logo.svg" alt="Logo" className="w-28  hidden dark:block" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="logo-dark.svg" alt="Logo Dark" className="w-28 h-[auto] hidden dark:block" />
+          <img src="logo-dark.svg" alt="Logo Dark" className="w-28 h-[auto] block dark:hidden" />
         </Link>
         <div className="flex items-center">
           <Nav />

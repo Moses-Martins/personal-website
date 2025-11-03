@@ -4,9 +4,9 @@ export default function Footer() {
    <footer className="mt-5 mb-4 max-sm:mb-5">
         <hr />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="logo.svg" alt="Logo" className="w-25 mt-0.5 mx-auto block dark:hidden" />
+        <img src="logo.svg" alt="Logo" className="w-25 mt-0.5 mx-auto hidden dark:block" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="logo-dark.svg" alt="Logo Dark" className="w-25 mt-0.5 mx-auto hidden dark:block" />
+        <img src="logo-dark.svg" alt="Logo Dark" className="w-25 mt-0.5 mx-auto block dark:hidden" />
 
         <div className="mx-60 max-xl:mx-7 max-md:mx-7 flex items-start justify-between max-sm:mx-5">
           <div>

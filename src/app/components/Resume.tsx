@@ -1,8 +1,8 @@
 export default function Resume() {
 
   return (
-    <div className="w-[80%] max-md:w-[90%] max-w-3xl mx-auto p-4 bg-white dark:bg-gray-900 rounded-lg shadow-lg mb-25">
-      <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100">
+    <div className="w-[80%] max-md:w-[90%] max-w-3xl mx-auto p-4 dark:bg-white bg-gray-900 rounded-lg shadow-lg mb-25">
+      <h2 className="text-2xl font-semibold mb-4 dark:text-gray-900 text-gray-100">
         My Resume
       </h2>
 
