@@ -16,28 +16,28 @@ export default function Contact() {
                 </p>
 
                 <div>
-                    <div className="bg-white/5 px-4 py-2 border-t border-l border-r border-white/50">
-                        <h3 className="text-lg font-bold text-white">
+                    <div className="dark:bg-white/5 bg-[#31283d]/5 px-4 py-2 border-t border-l border-r dark:border-white/50 border-[#31283d]">
+                        <h3 className="text-lg font-bold dark:text-white text-[#31283d]">
                             Reach Me
                         </h3>
                     </div>
 
-                    <div className="px-3 py-2 space-y-1 border border-white/50">
+                    <div className="px-3 py-2 space-y-1 border dark:border-white/50 border-[#31283d]">
                         <span className="flex items-center space-x-2">
                             <i className="bi bi-telephone-fill"></i>
-                            <span>+234 908 285 9098</span>
-                        </span>
-                        <span className="flex items-center space-x-2">
+                            <span>+234 908 137 4422</span>
+                        </span> 
+                        <span className="flex items-center space-x-2 hover:bg-pink-300 max-sm:active:bg-pink-300">
                             <i className="bi bi-envelope-at-fill"></i>
-                            <span>mmoses061@gmail.com</span>
+                            <a href="mailto:mmoses061@gmail.com">mmoses061@gmail.com</a>
                         </span>
-                        <span className="flex items-center space-x-2">
+                        <span className="flex items-center space-x-2 hover:bg-pink-300 max-sm:active:bg-pink-300">
                             <i className="bi bi-linkedin"></i>
-                            <span>Linkedin</span>
+                            <a href="https://www.linkedin.com/in/moses-martins/">Linkedin</a>
                         </span>
-                        <span className="flex items-center space-x-2">
+                        <span className="flex items-center space-x-2 hover:bg-pink-300 max-sm:active:bg-pink-300">
                             <i className="bi bi-discord"></i>
-                            <span>Discord</span>
+                            <a href="https://discord.com/users/1171898012470104180">Discord</a>
                         </span>
                     </div>
                 </div>
