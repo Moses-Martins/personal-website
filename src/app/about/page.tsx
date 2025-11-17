@@ -15,7 +15,7 @@ export default function About() {
                         Hello, I&apos;m Moses!<br /><br />
 
                         I&apos;m a self-taught software developer based in Lagos,
-                        Nigeria. I can develop responsive websites from
+                        Nigeria. I develop responsive websites from
                         scratch and raise them into modern user-friendly web
                         experiences.<br /><br />
 
